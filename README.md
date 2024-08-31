@@ -25,6 +25,7 @@
   - Enter the website URL in the 'Add to Block List' input area and click 'Block'
   - To remove a website from your block list, click the trash icon next to the URL
   - Websites should be entered in the format (www.websitename.com) or (websitename.com)
+- Timer Badge: A convenient badge displays the current Pomodoro timer right in your Chrome browser. You don’t need to open the extension each time to check the timer status. This badge dynamically updates to show the remaining time on your current Pomodoro session, helping you keep track of your work without interrupting your workflow. 
 
 ## Thank you for checking out Procrasti-NOT. Happy focusing!
 
