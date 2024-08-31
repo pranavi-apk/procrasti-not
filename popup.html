@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <title>Procrasti-NOT</title>
+  </head>
+  <body>
+    <div class="pomodify-container">
+      <div class="header">
+        <h1>Procrasti-NOT</h1>
+        <p class="welcome-message">
+          Pomodoro Timer, To-Do List, and Site Blocker in One Powerful Tool.
+        </p>
+      </div>
+
+      <div class="timer-section">
+        <div class="timer-circle">
+          <span id="timer-display">25:00</span>
+        </div>
+        <div class="timer-buttons">
+          <button id="start-timer"><i class="fas fa-play"></i> Start</button>
+          <button id="pause-timer"><i class="fas fa-pause"></i> Pause</button>
+          <button id="reset-timer"><i class="fas fa-redo"></i> Reset</button>
+        </div>
+      </div>
+
+      <div class="todo-section">
+        <h2>To-Do List</h2>
+        <div class="todo-input">
+          <input type="text" id="new-task" placeholder="Add a new task" />
+          <button id="add-task"><i class="fas fa-plus"></i> Add</button>
+        </div>
+        <ul id="task-list"></ul>
+      </div>
+
+      <div id="site-blocker-section">
+        <section class="header">
+          <h2>Site Blocker</h2>
+        </section>
+        <div id="content-container">
+          <section class="add-block">
+            <p>Add to Block List</p>
+            <div class="main">
+              <input type="text" id="websiteInput" />
+              <button class="block" id="blockButton">Block</button>
+            </div>
+          </section>
+
+          <section class="remove-block">
+            <p>Blocked Websites</p>
+            <div class="main">
+              <div id="blockedWebsitesDiv"></div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
