@@ -24,7 +24,7 @@
 - Block distracting websites:
   - Enter the website URL in the 'Add to Block List' input area and click 'Block'
   - To remove a website from your block list, click the trash icon next to the URL
-  - Websites should be entered in the format 'www.websitename.com' or 'websitename.com'
+  - Websites should be entered in the format (www.websitename.com) or (websitename.com)
 
 ## Thank you for checking out Procrasti-NOT. Happy focusing!
 
