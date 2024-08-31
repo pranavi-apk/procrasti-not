@@ -1,9 +1,9 @@
 # Procrasti-NOT
  Procrasti-NOT is a versatile Chrome extension designed to enhance productivity by combining three essential tools into one seamless interface: a Pomodoro timer, a to-do list, and a site blocker. This all-in-one tool helps users stay focused, organized, and distraction-free.
 
-<img src="images/popup.png" alt="Description" width="600"/>
-<img src="images/blocked websites.png" alt="Description" width="600"/>
-<img src="images/preview.png" alt="Description" width="600"/>
+<img src="images/popup.png" alt="Description" width="300"/>
+<img src="images/blocked websites.png" alt="Description" width="300"/>
+<img src="images/preview.png" alt="Description" width="300"/>
 
  ## Table of Contents
 - [How To Add the Extension to the Chrome Browser](#how-to-add)
